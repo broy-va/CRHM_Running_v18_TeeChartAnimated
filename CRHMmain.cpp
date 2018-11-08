@@ -2435,10 +2435,10 @@ void  CRHMmain:: LogMessageX(const char *S)
 
 //---------------------------------------
 void __fastcall CRHMmain::SaveProject(string prj_description) {
-
+	MapPar::iterator itPar;
 }
 //
-//	MapPar::iterator itPar;
+//	
 //	MapDim::iterator itDim;
 //	ClassPar *thisPar;
 //	ClassVar *lastVar = NULL;
